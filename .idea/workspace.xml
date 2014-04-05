@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5a25218-a693-41ad-a648-3bf4da65a727" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/kpfu/itis/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/kpfu/itis/utils/Validator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/time.jsp" afterPath="$PROJECT_DIR$/web/time.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task2.iws" />
@@ -87,16 +88,16 @@
       <file leaf-file-name="time.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/time.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="107" selection-end="107" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="425">
+            <state line="16" column="7" selection-start="492" selection-end="492" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/kpfu/itis/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="-0.20645161" vertical-offset="825" max-vertical-offset="1445">
+            <state line="7" column="3" selection-start="102" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
               <folding>
                 <element signature="e#453#454#0" expanded="true" />
                 <element signature="e#482#483#0" expanded="true" />
@@ -107,6 +108,15 @@
                 <element signature="e#654#655#0" expanded="true" />
                 <element signature="e#686#687#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Validator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/kpfu/itis/utils/Validator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="868" selection-end="868" vertical-scroll-proportion="0.9451613" vertical-offset="43" max-vertical-offset="731">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,9 +135,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/time.jsp" />
-        <option value="$PROJECT_DIR$/web/time.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/ru/kpfu/itis/model/User.java" />
+        <option value="$PROJECT_DIR$/web/time.jsp" />
+        <option value="$PROJECT_DIR$/src/ru/kpfu/itis/utils/Validator.java" />
       </list>
     </option>
   </component>
@@ -242,6 +253,10 @@
               <option name="myItemId" value="itis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -280,6 +295,7 @@
     <property name="recentsLimit" value="5" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -561,17 +577,21 @@
       <changelist id="e5a25218-a693-41ad-a648-3bf4da65a727" name="Default" comment="" />
       <created>1396729951077</created>
       <updated>1396729951077</updated>
-      <workItem from="1396729954447" duration="2023000" />
+      <workItem from="1396729954447" duration="2963000" />
     </task>
     <task id="LOCAL-00001" summary="Added time.jsp">
       <created>1396731157563</created>
       <updated>1396731157563</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added User object class">
+      <created>1396732013156</created>
+      <updated>1396732013156</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2023000" />
+    <option name="totallyTimeSpent" value="2963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
@@ -620,7 +640,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Added time.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added time.jsp" />
+    <MESSAGE value="Added User object class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added User object class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -633,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
@@ -647,16 +661,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/time.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="107" selection-end="107" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="425">
+        <state line="16" column="7" selection-start="492" selection-end="492" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/kpfu/itis/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="-0.20645161" vertical-offset="825" max-vertical-offset="1445">
+        <state line="7" column="3" selection-start="102" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
           <folding>
             <element signature="e#453#454#0" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />
@@ -667,6 +688,13 @@
             <element signature="e#654#655#0" expanded="true" />
             <element signature="e#686#687#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/kpfu/itis/utils/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="868" selection-end="868" vertical-scroll-proportion="0.9451613" vertical-offset="43" max-vertical-offset="731">
+          <folding />
         </state>
       </provider>
     </entry>
