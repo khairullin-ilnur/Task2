@@ -12,11 +12,11 @@
     <%
         String name = "placeholder=\"E-Mail\"";
         String pas = "placeholder=\"Age\"";
-        if (request.getParameter("fieldName") != null) {
-            name = "value=\""+request.getParameter("fieldName")+"\"";
+        if (request.getParameter("fieldEmail") != null) {
+            name = "value=\""+request.getParameter("fieldEmail")+"\"";
         }
-        if (request.getParameter("fieldPass") != null) {
-            pas = "value=\""+request.getParameter("fieldPass")+"\"";
+        if (request.getParameter("fieldAge") != null) {
+            pas = "value=\""+request.getParameter("fieldAge")+"\"";
         }
     %>
 
@@ -30,7 +30,7 @@
         <div class="front-sign-in">
             <input type="text" <%=name%> name="fieldEmail">
             <input type="text" <%=pas%> name="fieldAge">
-            <input type="submit" value="Login">
+            <input type="submit" value="Ok">
         </div>
     </form>
 </body>
