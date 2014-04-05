@@ -9,7 +9,9 @@
       <meta charset="UTF-8">
   </head>
   <body>
-    <p><a href="/time">See the time.</a></p>
-    <p><a href="/login">Login.</a></p>
+
+    <p><a href="/time.jsp">See the time.</a></p>
+    <p><a href="/login.jsp">Login.</a></p>
+
   </body>
 </html>

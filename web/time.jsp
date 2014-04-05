@@ -11,9 +11,11 @@
     <meta charset="UTF-8">
 </head>
 <body>
+
     <% String mTime;
        SimpleDateFormat mSimpleDateFormat = new SimpleDateFormat("dd/MM/yyyy kk:mm");
        mTime = mSimpleDateFormat.format(new java.util.Date()); %>
     <p><%=mTime%></p>
+
 </body>
 </html>

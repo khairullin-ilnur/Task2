@@ -20,13 +20,15 @@
         }
     %>
 
-    <h1> Hello! Enter you e-mail and age, please. </h1>
+    <h1> Hello!</h1>
+    <h2>Enter you e-mail and age, please.</h2>
+
     <%
         if (request.getParameter("error_msg") != null) { %>
     <p><font color="red">${param.error_msg}</font></p>
     <% }  %>
 
-    <form action="/account">
+    <form action="/account.jsp">
         <div class="front-sign-in">
             <input type="text" <%=name%> name="fieldEmail">
             <input type="text" <%=pas%> name="fieldAge">
